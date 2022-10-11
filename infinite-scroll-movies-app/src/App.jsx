@@ -16,7 +16,7 @@ function App() {
       <Router>
         <header>
           <Link to="/">
-            <h1 className="title">Movies</h1>
+            <h1 className="title">Netflix</h1>
           </Link>
         </header>
         <main>
