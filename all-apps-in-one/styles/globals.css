@@ -1,18 +1,104 @@
-html,
+/* Ignore this file. You can put your CSS in the styles.css file */
+
+@import url("https://ui.dev/font");
+
+:root {
+  --black: #292929;
+  --white: #f9f4da;
+  --red: #ed203d;
+  --purple: #7b5ea7;
+  --blue: #12b5e5;
+  --yellow: #fcba28;
+  --pink: #f38ba3;
+  --gold: #ffd500;
+  --aqua: #2febd2;
+  --gray: #231f20;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 body {
+  min-height: 100vh;
+  background: var(--black);
+  color: var(--white);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  background: var(--yellow);
+  color: var(--black);
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+  transition: background 0.1s ease-in-out;
+}
+
+button:hover {
+  background: var(--gold);
+}
+
+.container-outer {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 5px);
+}
+
+.ReactQueryDevtoolsPanel {
+  height: 50vh !important;
+}
+
+.ReactQueryDevtoolsPanel div:first-of-type {
+  display: none;
+}
+
+.yellow-border {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--yellow);
+  height: 5px;
+  width: 100%;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+  color: var(--yellow);
+  font-weight: 600;
 }
 
 .li-label {
@@ -30,12 +116,8 @@ a {
   background-color: currentColor;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.ul-user-picker {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
 }

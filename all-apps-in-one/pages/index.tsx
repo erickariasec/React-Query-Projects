@@ -33,17 +33,10 @@ export default function Home() {
             <p>ui.dev - (Practice) Index Query</p>
           </Link>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <Link href="/individual-records-practice" className={styles.card}>
+            <h2>Individual Records &rarr;</h2>
+            <p>ui.dev - (Practice) Fetching single user record</p>
+          </Link>
         </div>
       </main>
 
