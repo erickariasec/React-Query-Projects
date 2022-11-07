@@ -37,6 +37,21 @@ export default function Home() {
             <h2>Individual Records &rarr;</h2>
             <p>ui.dev - (Practice) Fetching single user record</p>
           </Link>
+
+          <Link href="/parallel-queries" className={styles.card}>
+            <h2>Parallel Queries &rarr;</h2>
+            <p>ui.dev - (Lesson) Parallel Queries</p>
+          </Link>
+
+          <Link href="/parallel-queries-combine-promise-all" className={styles.card}>
+            <h2>Parallel Queries &rarr;</h2>
+            <p>ui.dev - (Lesson) Combine - Promise.all</p>
+          </Link>
+
+          <Link href="/parallel-queries-useQueries" className={styles.card}>
+            <h2>Parallel Queries &rarr;</h2>
+            <p>ui.dev - (Lesson) useQueries</p>
+          </Link>
         </div>
       </main>
 
