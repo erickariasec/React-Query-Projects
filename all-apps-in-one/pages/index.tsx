@@ -52,6 +52,11 @@ export default function Home() {
             <h2>Parallel Queries &rarr;</h2>
             <p>ui.dev - (Lesson) useQueries</p>
           </Link>
+
+          <Link href="/dependent-queries" className={styles.card}>
+            <h2>Dependent Queries &rarr;</h2>
+            <p>ui.dev - (Lesson) Dependent Queries</p>
+          </Link>
         </div>
       </main>
 
