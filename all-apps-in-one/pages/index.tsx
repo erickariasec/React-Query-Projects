@@ -57,6 +57,11 @@ export default function Home() {
             <h2>Dependent Queries &rarr;</h2>
             <p>ui.dev - (Lesson) Dependent Queries</p>
           </Link>
+
+          <Link href="/deferred-queries" className={styles.card}>
+            <h2>Deferred Queries &rarr;</h2>
+            <p>ui.dev - (Lesson) Deferred Queries</p>
+          </Link>
         </div>
       </main>
 
