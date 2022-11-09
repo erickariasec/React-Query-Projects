@@ -62,6 +62,11 @@ export default function Home() {
             <h2>Deferred Queries &rarr;</h2>
             <p>ui.dev - (Lesson) Deferred Queries</p>
           </Link>
+
+          <Link href="/querying-filtered-data-practice" className={styles.card}>
+            <h2>Querying Filtered Data &rarr;</h2>
+            <p>ui.dev - (Practice)</p>
+          </Link>
         </div>
       </main>
 
