@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">React Query Apps!</a>
+          Welcome to <Link href="/">React Query Apps!</Link>
         </h1>
 
         <div className={styles.grid}>
