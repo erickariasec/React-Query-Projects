@@ -67,6 +67,11 @@ export default function Home() {
             <h2>Querying Filtered Data &rarr;</h2>
             <p>ui.dev - (Practice)</p>
           </Link>
+
+          <Link href="/search-queries-practice" className={styles.card}>
+            <h2>Search Queries &rarr;</h2>
+            <p>ui.dev - (Practice) Search for issues</p>
+          </Link>
         </div>
       </main>
 
