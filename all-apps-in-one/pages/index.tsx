@@ -72,6 +72,11 @@ export default function Home() {
             <h2>Search Queries &rarr;</h2>
             <p>ui.dev - (Practice) Search for issues</p>
           </Link>
+
+          <Link href="/cache-states-rq-devtools" className={styles.card}>
+            <h2>Cache States &rarr;</h2>
+            <p>ui.dev - React Query DevTools</p>
+          </Link>
         </div>
       </main>
 
