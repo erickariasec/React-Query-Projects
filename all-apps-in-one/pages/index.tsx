@@ -77,6 +77,11 @@ export default function Home() {
             <h2>Cache States &rarr;</h2>
             <p>ui.dev - React Query DevTools</p>
           </Link>
+
+          <Link href="/error-retries" className={styles.card}>
+            <h2>Error Retries &rarr;</h2>
+            <p>ui.dev - Handling Errors in React Query</p>
+          </Link>
         </div>
       </main>
 
