@@ -121,3 +121,17 @@ a {
   display: flex;
   gap: 1rem;
 }
+
+.error-message {
+  height: 2rem;
+  max-width: 30ch;
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 100, 100, 0.5);
+  border-left: red 2px solid;
+  padding: 1rem;
+}

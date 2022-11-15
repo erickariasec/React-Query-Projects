@@ -82,6 +82,11 @@ export default function Home() {
             <h2>Error Retries &rarr;</h2>
             <p>ui.dev - Handling Errors in React Query</p>
           </Link>
+
+          <Link href="/when-to-check-errors" className={styles.card}>
+            <h2>When to Check Errors &rarr;</h2>
+            <p>ui.dev - Handling Errors</p>
+          </Link>
         </div>
       </main>
 
