@@ -87,6 +87,11 @@ export default function Home() {
             <h2>When to Check Errors &rarr;</h2>
             <p>ui.dev - Handling Errors</p>
           </Link>
+
+          <Link href="/error-handling-practice" className={styles.card}>
+            <h2>Error Handling &rarr;</h2>
+            <p>ui.dev - (Practice) Error Component</p>
+          </Link>
         </div>
       </main>
 
