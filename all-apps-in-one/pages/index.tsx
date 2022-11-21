@@ -102,6 +102,11 @@ export default function Home() {
             <h2>Manual Query Invalidation &rarr;</h2>
             <p>ui.dev - (Practice) Invalidate</p>
           </Link>
+
+          <Link href="/query-filters-practice" className={styles.card}>
+            <h2>Query Filters &rarr;</h2>
+            <p>ui.dev - (Practice) Invalidate corresponding Queries</p>
+          </Link>
         </div>
       </main>
 
