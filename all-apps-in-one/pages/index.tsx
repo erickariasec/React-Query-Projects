@@ -92,6 +92,11 @@ export default function Home() {
             <h2>Error Handling &rarr;</h2>
             <p>ui.dev - (Practice) Error Component</p>
           </Link>
+
+          <Link href="/manual-query-invalidation" className={styles.card}>
+            <h2>Manual Query Invalidation &rarr;</h2>
+            <p>ui.dev - useQueryClient</p>
+          </Link>
         </div>
       </main>
 
