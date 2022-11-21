@@ -97,6 +97,11 @@ export default function Home() {
             <h2>Manual Query Invalidation &rarr;</h2>
             <p>ui.dev - useQueryClient</p>
           </Link>
+
+          <Link href="/manual-query-invalidation-practice" className={styles.card}>
+            <h2>Manual Query Invalidation &rarr;</h2>
+            <p>ui.dev - (Practice) Invalidate</p>
+          </Link>
         </div>
       </main>
 
