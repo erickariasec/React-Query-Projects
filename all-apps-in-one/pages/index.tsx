@@ -107,6 +107,11 @@ export default function Home() {
             <h2>Query Filters &rarr;</h2>
             <p>ui.dev - (Practice) Invalidate corresponding Queries</p>
           </Link>
+
+          <Link href="/query-cancellation" className={styles.card}>
+            <h2>Query Cancellation &rarr;</h2>
+            <p>ui.dev - queryClient.cancelQueries</p>
+          </Link>
         </div>
       </main>
 
