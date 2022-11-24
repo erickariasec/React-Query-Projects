@@ -112,6 +112,11 @@ export default function Home() {
             <h2>Query Cancellation &rarr;</h2>
             <p>ui.dev - queryClient.cancelQueries</p>
           </Link>
+
+          <Link href="/strapi-blog" className={styles.card}>
+            <h2>Strapi Blog &rarr;</h2>
+            <p>Personal Practice using React Query</p>
+          </Link>
         </div>
       </main>
 
