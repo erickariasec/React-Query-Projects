@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  images : {
-    domains: ['res.cloudinary.com']
-  }
-}
+  images: {
+    domains: ["res.cloudinary.com", "unsplash.it"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

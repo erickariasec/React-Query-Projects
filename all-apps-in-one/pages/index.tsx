@@ -113,6 +113,11 @@ export default function Home() {
             <p>ui.dev - queryClient.cancelQueries</p>
           </Link>
 
+          <Link href="/fetching-states-practice" className={styles.card}>
+            <h2>Fetching States &rarr;</h2>
+            <p>ui.dev - (Practice) isFetching Property</p>
+          </Link>
+
           <Link href="/strapi-blog" className={styles.card}>
             <h2>Strapi Blog &rarr;</h2>
             <p>Personal Practice using React Query</p>
