@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -43,7 +43,10 @@ export default function Home() {
             <p>ui.dev - (Lesson) Parallel Queries</p>
           </Link>
 
-          <Link href="/parallel-queries-combine-promise-all" className={styles.card}>
+          <Link
+            href="/parallel-queries-combine-promise-all"
+            className={styles.card}
+          >
             <h2>Parallel Queries &rarr;</h2>
             <p>ui.dev - (Lesson) Combine - Promise.all</p>
           </Link>
@@ -98,7 +101,10 @@ export default function Home() {
             <p>ui.dev - useQueryClient</p>
           </Link>
 
-          <Link href="/manual-query-invalidation-practice" className={styles.card}>
+          <Link
+            href="/manual-query-invalidation-practice"
+            className={styles.card}
+          >
             <h2>Manual Query Invalidation &rarr;</h2>
             <p>ui.dev - (Practice) Invalidate</p>
           </Link>
@@ -122,6 +128,11 @@ export default function Home() {
             <h2>Strapi Blog &rarr;</h2>
             <p>Personal Practice using React Query</p>
           </Link>
+
+          <Link href="/placeholder-data-practice" className={styles.card}>
+            <h2>Placeholder Data &rarr;</h2>
+            <p>ui.dev - (Practice) Render Placeholder Image</p>
+          </Link>
         </div>
       </main>
 
@@ -131,12 +142,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
