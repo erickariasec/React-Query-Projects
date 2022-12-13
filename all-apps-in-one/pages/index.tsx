@@ -133,6 +133,11 @@ export default function Home() {
             <h2>Placeholder Data &rarr;</h2>
             <p>ui.dev - (Practice) Render Placeholder Image</p>
           </Link>
+
+          <Link href="/initial-data-practice" className={styles.card}>
+            <h2>Initial Data &rarr;</h2>
+            <p>ui.dev - (Practice) Render Static Labels Data</p>
+          </Link>
         </div>
       </main>
 
