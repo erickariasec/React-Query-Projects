@@ -138,6 +138,11 @@ export default function Home() {
             <h2>Initial Data &rarr;</h2>
             <p>ui.dev - (Practice) Render Static Labels Data</p>
           </Link>
+
+          <Link href="/preloading-data-practice" className={styles.card}>
+            <h2>Preloading Data &rarr;</h2>
+            <p>ui.dev - (Practice) Preload Issues Data</p>
+          </Link>
         </div>
       </main>
 
