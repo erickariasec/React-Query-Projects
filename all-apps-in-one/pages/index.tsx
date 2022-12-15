@@ -143,6 +143,11 @@ export default function Home() {
             <h2>Preloading Data &rarr;</h2>
             <p>ui.dev - (Practice) Preload Issues Data</p>
           </Link>
+
+          <Link href="/mutations-practice" className={styles.card}>
+            <h2>Mutations &rarr;</h2>
+            <p>ui.dev - (Practice) Mutations using POST, update cache</p>
+          </Link>
         </div>
       </main>
 
