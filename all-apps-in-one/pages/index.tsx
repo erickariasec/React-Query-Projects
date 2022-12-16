@@ -148,6 +148,14 @@ export default function Home() {
             <h2>Mutations &rarr;</h2>
             <p>ui.dev - (Practice) Mutations using POST, update cache</p>
           </Link>
+
+          <Link
+            href="/basic-app-udemy-course-mutations"
+            className={styles.card}
+          >
+            <h2>Basic App Mutations &rarr;</h2>
+            <p>Udemy Course - (Practice)</p>
+          </Link>
         </div>
       </main>
 
